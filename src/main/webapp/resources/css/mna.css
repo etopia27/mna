@@ -1,0 +1,331 @@
+.navbar-nav>li>a {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+
+.navbar {
+	min-height: 32px !important
+}
+
+body {
+	padding-top: 0px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.tabs {
+	min-height: 80% !important;
+	background-color: white !important;
+}
+
+.cdsTabs {
+	min-height: 87% !important;
+}
+
+#tabs li .ui-icon-close {
+	float: left;
+	margin: 0.4em 0.2em 0 0;
+	cursor: pointer;
+}
+
+#messageBox {
+	width: 20%;
+	height: 10%;
+	z-index: 1;
+	top: 0.1em;
+	right: 0.1em;
+	position: absolute;
+	font-weight: bold;
+}
+
+.ui-jqgrid .ui-pg-input {
+	height: 18px !important;
+	font-size: .8em;
+}
+
+.error {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000
+}
+
+#hosts {
+	width: 175px !important;
+}
+
+.formDialogMsg {
+	float: left;
+	margin-right: .3em;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th div {
+	height: 25px !important;
+}
+
+button[disabled], html button[disabled] {
+	cursor: not-allowed !important;
+	background-color: #B3D09C;
+	opacity: .35 !important;
+}
+
+.container-div .right-span {
+	float: right
+}
+
+.container-div .left-span {
+	float: left
+}
+
+input[type=file] {
+	display: inline-block !important;
+}
+
+.grid-hyperlink {
+	text-decoration: underline !important;
+}
+
+/* for labels in textarea  */
+label, textarea {
+	display: inline-block;
+	vertical-align: top;
+	resize: none;
+}
+
+.paddingTop {
+	padding-top: 5px;
+}
+
+.scheduledRow {
+	color: orange;
+}
+
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.largeInput {
+	width: 300px;
+}
+
+.email-col {
+	height: 50px;
+	max-width: 400px;
+}
+
+#emailNotificationForm .text_input {
+	min-width: 350px;
+}
+
+.cds_tasks_table th {
+	border: 1px solid #327E04;
+	height: 30px;
+	background: #459e00
+		url("images/ui-bg_highlight-hard_15_459e00_1x100.png") 50% 50%
+		repeat-x;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+.cds_tasks_table tbody tr {
+	height: 60px;
+}
+
+.cds_tasks_table tbody td {
+	padding: 10px 10px 10px 10px;
+}
+
+.cds_tasks_table tbody tr .actionColumn {
+	text-align: center;
+}
+
+.width_20_percent {
+	width: 20%;
+}
+
+.width_60_percent {
+	width: 60%;
+}
+
+.casinoIdList_task {
+	width: 90%;
+	height: 40px !important;
+}
+
+.ui-jqgrid-btable.ui-common-table td {
+	white-space: normal !important;
+	height: auto;
+	vertical-align: text-top;
+	padding-top: 2px;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th div {
+	overflow: visible !important;
+	height: auto !important;
+}
+
+.ui-th-column, .ui-jqgrid .ui-jqgrid-htable th.ui-th-column {
+	white-space: normal !important;
+}
+
+.ui-jqgrid .ui-th-div-ie {
+	white-space: normal !important;
+}
+
+#clearFilterButton {
+	width: 36px;
+	background-image: url('/assets/images/clear_search.png');
+	position: relative;
+	background-size: 65%;
+	height: 34px;
+	background-repeat: no-repeat;
+	background-color: #eee;
+	background-position: center;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-grey, .ui-widget-content .ui-state-grey, .ui-widget-header .ui-state-grey
+	{
+	border: 1px solid #e8e1b5 !important;
+	background: buttonface url("images/ui-bg_glass_55_f0d749_1x400.png") 50%
+		50% repeat-x !important;
+	color: #363636;
+}
+
+.ui-state-grey a, .ui-widget-content .ui-state-grey a, .ui-widget-header .ui-state-grey a
+	{
+	color: #363636;
+}
+
+.email-input-fields {
+	display: block;
+	width: 90%;
+	height: 40px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	float: left;
+	padding: 0px 5px 0px 5px;
+	margin: 0 3px 3px 0;
+}
+
+.delete_icon {
+	width: 30px;;
+	height: 30px;
+}
+
+.remove_field {
+	float: right;
+}
+
+.input_fields_wrap a {
+	text-align: center;
+	display: block;
+	margin: 6px auto;
+}
+
+.spaceTop {
+	height: 70px;
+	vertical-align: bottom;
+}
+
+.ui-tabs .ui-tabs-panel {
+	padding: 0.5em 1.4em !important;
+}
+
+.panel-body {
+	padding: 0px !important;
+}
+
+.ui-jqgrid-bdiv {
+	overflow-y: hidden !important;
+	overflow-x: auto !important;
+}
+
+.ui-jqgrid tr.jqgrow td {
+	min-height: 30px !important;
+	height: 30px !important;
+	font-size: 14px !important;
+}
+
+.ui-icon {
+	zoom: 1.5 !important;
+}
+
+.ui-paging-pager span.ui-icon {
+	zoom: 2 !important;
+}
+
+.login-panel-body {
+	padding: 15px;
+}
+
+.ui-jqgrid-pager  .ui-pager-control {
+	height: 40px !important;
+}
+
+.td_right_align {
+	text-align: right;
+	padding-right: 50px;
+}
+
+#manageComponentExportButton:hover {
+	border: 1px solid;
+}
+
+table.ui-jqgrid-btable tr.jqgfirstrow td {
+	border-color: #fff
+}
+
+table.ui-jqgrid-btable {
+	height: 1px
+}
+
+#systemConfigurationList_actions>div {
+	cursor: auto !important;
+}
+
+#manageEndPointsList_actions>div {
+	cursor: auto !important;
+}
+
+#manageEndPointsList_endPointPassword>div {
+	cursor: auto !important;
+}
+
+#manageComponentList_actions>div {
+	cursor: auto !important;
+}
+
+.preloader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('/assets/images/loader.gif') 50% 50% no-repeat
+		rgb(249, 249, 249);
+	opacity: .8;
+}
+
+.please_select_option {
+	font-weight: bold;
+	color: #BEBEBE;
+}
+
+.projectButtons {
+	margin-bottom: 10px;
+}
